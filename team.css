@@ -48,13 +48,30 @@ p {
 }
 
 .roster {
-  width: 75%;
+  width: 100%; /* Make the container take the full width */
   text-align: center;
-  margin: auto;
-  margin-top: 10px;
+  margin: 0 auto;
   padding: 10px;
-  border-radius: 10px;
-  padding-left: 50px;
-  padding-right: 50px;
 }
 
+.roster img {
+  max-width: 100%;  /* Make the image responsive */
+  height: auto;  /* Maintain aspect ratio */
+  display: block; /* Ensures there’s no extra space below the image */
+  margin: 0 auto; /* Centers the image horizontally */
+}
+
+/* For smaller screens (e.g., mobile), you can apply specific styles */
+@media (max-width: 768px) {
+  .roster {
+      padding: 5px; /* Reduce padding for smaller screens */
+  }
+
+  h1 {
+      font-size: 30px; /* Smaller heading on mobile */
+  }
+
+  p {
+      font-size: 14px; /* Adjust paragraph font size for readability */
+  }
+}
