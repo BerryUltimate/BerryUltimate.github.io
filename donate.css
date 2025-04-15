@@ -34,7 +34,25 @@ h1 {
   margin: 5px;
 }
 
+h2 {
+  color: white;
+  font-size: 50px;
+  margin: 5px;
+}
+
 p {
+  color: white;
+  margin: 5px;
+  font-size: 20px;
+}
+
+ul {
+  color: white;
+  margin: 5px;
+  font-size: 20px;
+}
+
+l1 {
   color: white;
   margin: 5px;
   font-size: 20px;
